@@ -24,13 +24,7 @@ body {
     float: left;
     margin-right: 40px;
 }
-/* cuerpo */
-#cuerpo {
-  
-    width: auto;
-	 padding: 5%;
  
-}
 .articulo {
     width: 200px;
     height: 450px;
@@ -44,7 +38,7 @@ body {
 
 footer {
     background-color: #7DC3E5;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
     height: 50px;
@@ -54,12 +48,11 @@ footer {
 
 h2,h4 { 
     font-family:verdana,arial,sans-serif;
-    font-size:28px;
-
+    font-size:24px;
     text-shadow:2px 2px 2px #aaa;
 }
-h3{
-	color: #666;
+.title3{
+    padding: 0 100px 0 10px;
 }
 	
  
@@ -98,3 +91,43 @@ div.inline { float:left; }
 div.footer-part-one{ padding: 0 0 0 30%; }
 div.footer-part-two{ padding-left: 40%;}
 .clearBoth { clear:both; }
+
+ 
+          .tab {display:none}
+        .default-tab {display:block}
+        :target ~ .default-tab {display:none}
+        #tab1:target ~ .tab1,
+        #tab2:target ~ .tab2,
+        #tab3:target ~ .tab3,
+        #tab4:target ~ .tab4{
+            display: block;
+        }
+	
+ 
+ .tab1 >div{
+		 width: 90%;
+        margin: 10px 0px 0px 10%;	
+		 
+ } 
+ 
+ div>iframe{
+	   margin: 5% 10% 10% 10%  !important;
+ }
+ 
+ 
+ a:hover {
+   	 color: white !important;
+    background-color: #7DC3E5 !important;
+}
+ 
+ .container{
+	  width: 25%;
+	  height: 270px !important;
+	  border: 1px solid;
+      border-radius: 5px;
+	  margin: 0px 5px 0px 5px  !important;	
+ }
+.container>div{
+		  margin: 0px 15px 0px 15px  !important;	
+}
+
