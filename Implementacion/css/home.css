@@ -1,0 +1,133 @@
+body {
+    margin: 0px;
+}
+/* cabecera */
+#cabecera {
+
+    width: 100%;
+
+}
+/* Menu de navegación */
+#parent {
+    display: flex;
+}
+#narrow {
+    width: 200px;
+    padding: 20px 10px 0 50px;
+}
+#wide {
+    flex: 1;
+    text-align: center;
+    padding: 0 180px 0 10px;
+}
+#logo {
+    float: left;
+    margin-right: 40px;
+}
+ 
+.articulo {
+    width: 200px;
+    height: 450px;
+    float: left;
+    margin: 10px;
+    padding: 8px;
+    overflow: hidden;
+
+}
+/* Pie */
+
+footer {
+    background-color: #7DC3E5;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    color: white;
+}
+
+
+h2,h4 { 
+    font-family:verdana,arial,sans-serif;
+    font-size:24px;
+    text-shadow:2px 2px 2px #aaa;
+}
+.title3{
+    padding: 0 100px 0 10px;
+}
+	
+ 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+li a.active {
+    color: white;
+    background-color: #7DC3E5;
+}
+
+div.inline { float:left; }
+
+div.footer-part-one{ padding: 0 0 0 30%; }
+div.footer-part-two{ padding-left: 40%;}
+.clearBoth { clear:both; }
+
+ 
+          .tab {display:none}
+        .default-tab {display:block}
+        :target ~ .default-tab {display:none}
+        #tab1:target ~ .tab1,
+        #tab2:target ~ .tab2,
+        #tab3:target ~ .tab3,
+        #tab4:target ~ .tab4{
+            display: block;
+        }
+	
+ 
+ .tab1 >div{
+		 width: 90%;
+        margin: 10px 0px 0px 10%;	
+		 
+ } 
+ 
+ div>iframe{
+	   margin: 5% 10% 10% 10%  !important;
+ }
+ 
+ 
+ a:hover {
+   	 color: white !important;
+    background-color: #7DC3E5 !important;
+}
+ 
+ .container{
+	  width: 25%;
+	  height: 270px !important;
+	  border: 1px solid;
+      border-radius: 5px;
+	  margin: 0px 5px 0px 5px  !important;	
+ }
+.container>div{
+		  margin: 0px 15px 0px 15px  !important;	
+}
+
