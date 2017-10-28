@@ -1,0 +1,26 @@
+#tbL1{  
+position:absolute;
+top:185px;
+left:783px;
+}
+#izquierda{  
+        height:60%;  
+        float:left;  
+        width:100%;  
+position:absolute;
+top:200px;
+}
+#izquierda2{  
+        height:50%;  
+        float:left;  
+        width:25%;  
+border:1px solid #FF0000;
+position:absolute;
+top:150px;
+}
+
+h1 { 
+    font-family:verdana,arial,sans-serif;
+    font-size:24px;
+    text-shadow:2px 2px 2px #aaa;
+}
